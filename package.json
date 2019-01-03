@@ -2,12 +2,21 @@
   "name": "prettier-check-all",
   "version": "0.0.1",
   "description": "Check that all files match prettier code style.",
-  "main": "lib/index.js",
   "bin": {
     "prettier-c": "bin/prettier-c/index.js"
   },
+  "main": "lib/index.js",
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "engines": {
+    "node": ">= 4"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava test/index.js",
+    "lint-fix": "prettier --write --ignore-path .gitignore \"bin/prettier-c/{index,cli,test}.js\"",
+    "lint": "node ./bin/prettier-c/index.js --write --ignore-path .gitignore \"bin/prettier-c/{index,cli,test}.js\""
   },
   "repository": {
     "type": "git",
@@ -21,5 +30,12 @@
   "homepage": "https://github.com/sosout/prettier-check-all#readme",
   "dependencies": {
     "execa": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "^1.0.1",
+    "prettier": "x.x.x"
+  },
+  "peerDependencies": {
+    "prettier": "x.x.x"
   }
 }

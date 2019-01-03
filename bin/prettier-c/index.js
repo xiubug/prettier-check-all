@@ -1,11 +1,12 @@
 #!/usr/bin/env node
 "use strict";
-const execa = require('execa');
+const execa = require("execa");
 const args = process.argv.slice(2);
-const NO_ERROR = 'All files using prettier code style.';
-const GENERAL_ERROR = 'Error when running prettier:';
-const STYLE_ERROR = 'Forgot to run prettier? There are files without correct code style:';
-const UNEXPECTED_ERROR = 'Unexpected error:';
+const NO_ERROR = "All files using prettier code style.";
+const GENERAL_ERROR = "Error when running prettier:";
+const STYLE_ERROR =
+  "Forgot to run prettier? There are files without correct code style:";
+const UNEXPECTED_ERROR = "Unexpected error:";
 
 const prettierCheck = args => {
   args.push("-l");
@@ -30,7 +31,7 @@ const prettierCheck = args => {
         return 1;
       }
     });
-}
+};
 
 prettierCheck(args)
   .then(code => {
@@ -39,4 +40,4 @@ prettierCheck(args)
   .catch(error => {
     console.error(error);
     process.exit(1);
-  })
+  });
