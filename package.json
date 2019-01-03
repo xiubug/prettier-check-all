@@ -1,0 +1,25 @@
+{
+  "name": "prettier-check-all",
+  "version": "0.0.1",
+  "description": "Check that all files match prettier code style.",
+  "main": "lib/index.js",
+  "bin": {
+    "prettier-c": "bin/prettier-c/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sosout/prettier-check-all.git"
+  },
+  "author": "Weich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sosout/prettier-check-all/issues"
+  },
+  "homepage": "https://github.com/sosout/prettier-check-all#readme",
+  "dependencies": {
+    "execa": "^1.0.0"
+  }
+}
