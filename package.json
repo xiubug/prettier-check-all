@@ -9,17 +9,15 @@
   "main": "lib/index.js",
   "files": [
     "bin",
-    "lib",
-    ".prettierrc",
-    ""
+    "lib"
   ],
   "engines": {
     "node": ">= 6"
   },
   "scripts": {
     "test": "jest",
-    "lint-fix": "prettier --write --ignore-path .gitignore \"bin/prettier-c/{index,cli,test}.js\"",
-    "lint": "node ./bin/prettier-c/index.js --write --ignore-path .gitignore \"bin/prettier-c/{index,cli,test}.js\""
+    "lint-fix": "prettier --write --ignore-path .gitignore \"lib/*/**.js\"",
+    "lint": "node ./bin/prettier-c.js --write --ignore-path .gitignore \"lib/*/**.js\""
   },
   "repository": {
     "type": "git",
