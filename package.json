@@ -11,7 +11,7 @@
     "lib"
   ],
   "engines": {
-    "node": ">= 4"
+    "node": ">= 6"
   },
   "scripts": {
     "test": "jest",
@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/sosout/prettier-check-all#readme",
   "dependencies": {
-    "execa": "^0.6.0"
+    "execa": "^1.0.0"
   },
   "devDependencies": {
     "jest": "^23.6.0",
