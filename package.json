@@ -14,7 +14,7 @@
     "node": ">= 4"
   },
   "scripts": {
-    "test": "ava test/index.js",
+    "test": "jest",
     "lint-fix": "prettier --write --ignore-path .gitignore \"bin/prettier-c/{index,cli,test}.js\"",
     "lint": "node ./bin/prettier-c/index.js --write --ignore-path .gitignore \"bin/prettier-c/{index,cli,test}.js\""
   },
@@ -32,7 +32,7 @@
     "execa": "^1.0.0"
   },
   "devDependencies": {
-    "ava": "^1.0.1",
+    "jest": "^23.6.0",
     "prettier": "x.x.x"
   },
   "peerDependencies": {

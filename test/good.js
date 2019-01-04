@@ -1,1 +1,6 @@
-const a = ["I'm pretty"];
+// const a = ["I'm pretty"];
+
+function sum(a, b) {
+  return a + b;
+}
+module.exports = sum;
