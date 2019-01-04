@@ -50,6 +50,11 @@ Please use GitHub Pull Requests.
 [prettier-c]: docs/prettier-c.md
 [prettier-f]: docs/prettier-f.md
 
+## Inspired
+
+- [hexacta/prettier-check](https://github.com/hexacta/prettier-check)
+- [chenshuai2144/prettier-check](https://github.com/chenshuai2144/prettier-check)
+
 ## License
 
 MIT

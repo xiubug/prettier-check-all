@@ -1,12 +1,12 @@
 {
   "name": "prettier-check-all",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Check that all files match prettier code style.",
+  "main": "index.js",
   "bin": {
     "prettier-c": "bin/prettier-c.js",
     "prettier-f": "bin/prettier-f.js"
   },
-  "main": "lib/index.js",
   "files": [
     "bin",
     "lib",
