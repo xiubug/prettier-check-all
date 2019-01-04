@@ -1,6 +1,6 @@
 {
   "name": "prettier-check-all",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Check that all files match prettier code style.",
   "main": "index.js",
   "bin": {
@@ -24,6 +24,11 @@
     "type": "git",
     "url": "git+https://github.com/sosout/prettier-check-all.git"
   },
+  "keywords": [
+    "prettier",
+    "ci",
+    "check"
+  ],
   "author": "Weich",
   "license": "MIT",
   "bugs": {

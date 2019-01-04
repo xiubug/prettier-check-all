@@ -25,6 +25,6 @@ Add a script
 
 ```json
 "scripts": {
-    "lint-prettier": "check-prettier"
+  "prettier-f": "check-prettier"
 },
 ```
