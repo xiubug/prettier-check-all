@@ -1,6 +1,6 @@
 {
   "name": "prettier-check-all",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Check that all files match prettier code style.",
   "bin": {
     "prettier-c": "bin/prettier-c.js",
@@ -10,7 +10,8 @@
   "files": [
     "bin",
     "lib",
-    ".prettierrc"
+    ".prettierrc",
+    ""
   ],
   "engines": {
     "node": ">= 6"
