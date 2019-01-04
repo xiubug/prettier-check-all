@@ -1,33 +1,54 @@
-# prettier-check-all [![Build Status](https://api.travis-ci.org/sosout/prettier-check-all.svg?branch=master)](https://travis-ci.org/sosout/prettier-check-all) [![npm version](https://img.shields.io/npm/v/prettier-check-all.svg?style=flat)](https://www.npmjs.com/package/prettier-check-all)
+| index | [prettier-c] | [prettier-f] |
+|-------|---------------|---------|
+
+
+# prettier-check-all 
 
 > Check that all files match [prettier](https://github.com/prettier/prettier) code style.
 
+[![Build Status](https://api.travis-ci.org/sosout/prettier-check-all.svg?branch=master)](https://travis-ci.org/sosout/prettier-check-all) 
+[![npm version](https://img.shields.io/npm/v/prettier-check-all.svg?style=flat)](https://www.npmjs.com/package/prettier-check-all)
+[![Downloads/month](https://img.shields.io/npm/dm/prettier-check-all.svg)](http://www.npmtrends.com/prettier-check-all)
 
-## Install
+## 💿 Installation
 
-```
+```bash
 $ npm install --save-dev prettier prettier-check-all
+# or
+$ yarn add prettier prettier-check-all --dev
 ```
 
-> Make sure you have `prettier` as a dependency (or globally).
+> It requires `Node@>=6` and have `prettier as a dependency (or globally)`.
 
-## Usage
+## 📖 Usage
 
-Use it in the test script in your package.json:
+### CLI Commands
 
-```json
-  "scripts": {
-    "test": "prettier-c src/**/*.js"
-  },
-```
+This `prettier-check-all` package provides 2 CLI commands.
 
-All args are forwarded to prettier:
+- [prettier-c]
+- [prettier-f]
 
-```json
-  "scripts": {
-    "test": "prettier-c --single-quote --trailing-comma es5 src/**/*.js"
-  },
-```
+## 🍻 Contributing
+
+Welcome♡
+
+### Bug Reports or Feature Requests
+
+Please use GitHub Issues.
+
+### Correct Documents
+
+Please use GitHub Pull Requests.
+
+I'm not familiar with English, so I especially thank you for documents' corrections.
+
+### Implementing
+
+Please use GitHub Pull Requests.
+
+[prettier-c]: docs/prettier-c.md
+[prettier-f]: docs/prettier-f.md
 
 ## License
 
