@@ -3,12 +3,14 @@
   "version": "0.0.1",
   "description": "Check that all files match prettier code style.",
   "bin": {
-    "prettier-c": "bin/prettier-c/index.js"
+    "prettier-c": "bin/prettier-c.js",
+    "prettier-f": "bin/prettier-f.js"
   },
   "main": "lib/index.js",
   "files": [
     "bin",
-    "lib"
+    "lib",
+    ".prettierrc"
   ],
   "engines": {
     "node": ">= 6"
@@ -29,7 +31,10 @@
   },
   "homepage": "https://github.com/sosout/prettier-check-all#readme",
   "dependencies": {
-    "execa": "^1.0.0"
+    "chalk": "^2.4.1",
+    "commander": "^2.19.0",
+    "execa": "^1.0.0",
+    "glob": "^7.1.3"
   },
   "devDependencies": {
     "jest": "^23.6.0",
